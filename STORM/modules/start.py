@@ -49,6 +49,7 @@ async def start(event):
         bot_name = KEX.first_name
         bot_id = KEX.id
         TEXT = f"**ʜᴇʏ [{event.sender.first_name}]\n\nɪ ᴀᴍ [{bot_name}](tg://user?id={bot_id})​**\n➖➖➖➖➖➖➖➖➖➖➖\n"
+        TEXT += f"» **ꜱᴇɴꜱᴇɪ : [ꜱᴇɴꜱᴇɪ](https://t.me/GOD_AYUSH_PYROGRAM_CLIENT)**\n"
         TEXT += f"» **ᴋɪʟʟᴇʀ x ꜱᴘᴀᴍʙᴏᴛ :** `M3.1.0` \n"
         TEXT += f"» **ᴘʏᴛʜᴏɴ :** `3.11` \n"
         TEXT += f"» **ᴛᴇʟᴇᴛʜᴏɴ :** `{__version__}`\n➖➖➖➖➖➖➖➖➖➖➖"        

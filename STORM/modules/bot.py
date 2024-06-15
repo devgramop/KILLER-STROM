@@ -19,11 +19,11 @@ Alivemsg = "ꜱᴛᴏʀᴍ x ꜱᴘᴀᴍ ʜᴇʀᴇ"
 TEXT = f"‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌ㅤㅤㅤ • ᴋɪʟʟᴇʀ x ꜱᴘᴀᴍʙᴏᴛ ɪꜱ ᴀʟɪᴠᴇ • ㅤㅤㅤ\n"
 TEXT = f"‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌ㅤ ʙᴏᴛ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ‌🪽\n"
 TEXT += f"➖➖➖➖➖➖➖➖➖➖➖\n"
-TEXT += f"**• ᴘʏᴛʜᴏɴ ᴠᴇʀꜱɪᴏɴ** 🐍: `3.11.3`\n"
-TEXT += f"**• ʙᴏᴛ ᴠᴇʀꜱɪᴏɴ** ⚙️: `M3.0`\n"
-TEXT += f"**• ɢʀᴏᴜᴘ 💫: [ɢʀᴏᴜᴘ 🥀](https://t.me/PYROGRAMXSUPPORT)**\n"
-TEXT += f"**• ᴄʜᴀɴɴᴇʟ ✨: [ᴄʜᴀɴɴᴇʟ 🥀](https://t.me/LABDESHXSUPPORT)**\n"
-TEXT += f"**• ꜱᴇɴꜱᴇɪ 🫂: [AYUSH 🥀](https://t.me/GOD_AYUSH_PYROGRAM_CLIENT)**\n"
+TEXT += f"**• KILLER SPAM** 🐍: `3.11.3`\n"
+TEXT += f"**• TERA BAAP HU** ⚙️: `M3.0`\n"
+TEXT += f"**• MERA GROUP 💫: [ɢʀᴏᴜᴘ 🥀](https://t.me/+X7xbNve4NEY5N2I1)**\n"
+TEXT += f"**• GROUP LINK LELE✨: [ᴄʜᴀɴɴᴇʟ 🥀](https://t.me/+X7xbNve4NEY5N2I1)**\n"
+TEXT += f"**• OWNER 🫂: [KILLER 🥀](https://t.me/OFFICIAL_KILLER01)**\n"
 TEXT += f"➖➖➖➖➖➖➖➖➖➖➖"
                                   
 @X1.on(events.NewMessage(incoming=True, pattern=r"\%salive(?: |$)(.*)" % hl))
@@ -43,8 +43,8 @@ async def alive(event):
                                   caption=TEXT,
                                   buttons=[
         [
-        Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/LABDESHXSUPPORT"),
-        Button.url("• ꜱᴜᴘᴘᴏʀᴛ •", "https://t.me/PYROGRAMXSUPPORT")
+        Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/+X7xbNve4NEY5N2I1"),
+        Button.url("• ꜱᴜᴘᴘᴏʀᴛ •", "https://t.me/+X7xbNve4NEY5N2I1")
         ],
         ]
         )
@@ -138,7 +138,7 @@ async def leave(e):
     if e.sender_id in SUDO_USERS:
 
         if len(e.text) > 7:
-            event = await e.reply("» ʟᴇᴀᴠɪɴɢ ⌛...")
+            event = await e.reply("» JAA RAHA HU ⌛...")
             mkl = e.text.split(" ", 1)
             try:
                 await event.client(LeaveChannelRequest(int(mkl[1])))
@@ -149,7 +149,7 @@ async def leave(e):
                   alt = f"**» ʏᴏᴜ ᴄᴀɴ'ᴛ ᴅᴏ ᴛʜɪꜱ ʜᴇʀᴇ !!**\n\n» {hl}ʟᴇᴀᴠᴇ : ᴛʏᴘᴇ ᴛʜɪꜱ ɪɴ ɢʀᴏᴜᴘ"
                   await e.reply(alt)
              else:
-                  event = await e.reply("» ʟᴇᴀᴠɪɴɢ ⌛...")
+                  event = await e.reply("» JAA RAHA HU ⌛...")
                   try:
                       await event.client(LeaveChannelRequest(int(e.chat_id)))
                   except Exception as e:
@@ -171,7 +171,7 @@ async def ping(e):
         KEX = await e.reply(f"🌩")
         end = datetime.now()
         mp = (end - start).microseconds / 10000
-        await KEX.edit(f"**ᴋɪʟʟᴇʀ ꜱᴀʙᴋɪ ᴍᴀᴀ ᴄʜᴏᴅɴᴇ ᴋᴇ ʟɪʏᴇ ᴛᴀɪʏᴀᴀʀ ʜᴀɪɴ 👿** ⚡\n» `{mp} ᴍꜱ`") 
+        await KEX.edit(f"**𝙆𝙄𝙎 𝘾𝙃𝙐𝙏𝙄𝙔𝙀 𝙆𝙄 𝙈𝘼𝙐𝙏 𝘼𝘼𝙔𝙄 𝙃𝘼𝙄𝙉 𝙅𝙄𝙎𝙉𝙀 𝙆𝙄𝙇𝙇𝙀𝙍 𝙎𝙄𝙍 𝙎𝙀 𝙋𝘼𝙉𝙂𝘼 𝙇𝙄𝙔𝘼. 👿** ⚡\n» `{mp} ᴍꜱ`") 
 
 @X1.on(events.NewMessage(incoming=True, pattern=r"\%ssudo(?: |$)(.*)" % hl))
 @X2.on(events.NewMessage(incoming=True, pattern=r"\%ssudo(?: |$)(.*)" % hl))
@@ -188,7 +188,7 @@ async def addsudo(event):
         Heroku = heroku3.from_key(HEROKU_API_KEY)
         sudousers = getenv("SUDO_USERS", default=None)
 
-        ok = await event.reply(f"» ʏᴇ ᴋɪʟʟᴇʀ ᴋᴀ ʙᴇᴛᴀ ʜᴀɪ ɪꜱᴘᴇ ʀᴀɪᴅ ɴᴀʜɪ ᴋᴀʀɴᴀ...")
+        ok = await event.reply(f"» MAA CHUD LODE CHAI KE PAISE DE NAHI TO MOOH ME DE DUNGA CHOKO🙂...")
         target = ""
         if HEROKU_APP_NAME is not None:
             app = Heroku.app(HEROKU_APP_NAME)
@@ -206,7 +206,7 @@ async def addsudo(event):
             return
 
         if str(target) in sudousers:
-            await ok.edit(f"ᴛʜɪꜱ ᴜꜱᴇʀ ɪꜱ ᴀʟʀᴇᴀᴅʏ ᴀ ꜱᴜᴅᴏ ᴜꜱᴇʀ !!")
+            await ok.edit(f"ABBE CHUTIYA HAIN KYA BSDK  !!")
         else:
             if len(sudousers) > 0:
                 newsudo = f"{sudousers} {target}"
@@ -216,7 +216,7 @@ async def addsudo(event):
             heroku_var["SUDO_USERS"] = newsudo    
     
     elif event.sender_id in SUDO_USERS:
-        await event.reply("» ꜱᴏʀʀʏ, ᴏɴʟʏ ᴏᴡɴᴇʀ ᴄᴀɴ ᴀᴄᴄᴇꜱꜱ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ.")        
+        await event.reply("» BHAI TERI MAA CHOD DUNGA YE COMMAND SIRF BAAP USE KAR SKTE BETE NAHI .")        
 
 @X1.on(events.NewMessage(incoming=True, pattern=r"\%srestart(?: |$)(.*)" % hl))
 @X2.on(events.NewMessage(incoming=True, pattern=r"\%srestart(?: |$)(.*)" % hl))
@@ -230,7 +230,7 @@ async def addsudo(event):
 @X10.on(events.NewMessage(incoming=True, pattern=r"\%srestart(?: |$)(.*)" % hl))
 async def restart(e):
     if e.sender_id in SUDO_USERS:
-        await e.reply(f"`ʀᴇꜱᴛᴀʀᴛɪɴɢ ⌛ ...`")
+        await e.reply(f"`BAND HO RAHA SIR🥺⌛ ...`")
         try:
             await X1.disconnect()
         except Exception:
